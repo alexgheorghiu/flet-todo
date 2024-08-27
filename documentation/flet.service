@@ -1,0 +1,13 @@
+[Unit]
+Description=Flet App
+After=network.target
+
+[Service]
+User=alex
+Group=alex
+WorkingDirectory=${absolute-path-to}/flet-todo
+Environment="PATH=${absolute-path-to}/flet-todo/.venv/bin"
+ExecStart=${absolute-path-to}/flet-todo/.venv/bin/python /home/alex/projects/todo/main.py
+
+[Install]
+WantedBy=multi-user.target
