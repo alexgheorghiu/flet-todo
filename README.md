@@ -3,7 +3,7 @@
 An example of a minimal Flet app.
 
 ## Demo
-![Demo](./flet-todo-demo.gif "Title")
+![Demo](./demo.gif "Title")
 
 
 ## Install libraries
